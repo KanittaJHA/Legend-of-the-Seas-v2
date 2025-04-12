@@ -96,11 +96,11 @@ img {
 }
 
 .nav__logo i {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 .nav__logo span {
-  font-size: 1rem;
+  font-size: 1.75rem;
   font-weight: var(--font-bold);
 }
 
@@ -193,6 +193,12 @@ img {
   padding: 0.75rem 2rem;
   border-radius: 4rem;
   color: var(--black-color);
+  transition: all 0.4s;
+}
+
+.home__button:hover {
+  color: var(--white-color);
+  background-color: var(--black-color);
 }
 
 .home__button::after {
